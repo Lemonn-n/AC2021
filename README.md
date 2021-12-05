@@ -3,7 +3,9 @@ Advent of Code 2021
 
 ### Items learned  
 d1: numpy.roll to get lag
+
 d2: split lines using string.split()
+
 d3: using int() for binary conversion
 
 d4: 
