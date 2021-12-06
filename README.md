@@ -20,3 +20,8 @@ d5:
 - my struggles (logic loophole): in set operation logic, every time only compare 2 and drop common ones then move to next, if the common point shows up on 3rd time, it will be considered as non-common one as it was dropped out in current tracking/comparing set, have to use another list to track all the common ones dropped
 - online better: using re to load data easier with simplier structure; using Counter to track each point instead of comprison; using common logics for all lines
 
+d6:
+- my solution: go through days, each day go through fish
+- online solution: go through days, count fishes of each day cycle type
+- my stuggles (effiency): it looks freezing after 100+ days, n (days) * n (fish exponential grow)
+- online better: only O(n) - linear to days
