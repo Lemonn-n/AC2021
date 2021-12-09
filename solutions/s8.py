@@ -1,4 +1,4 @@
-with open('../inputs/input8.txt')as f:
+with open('../inputs/input8.txt') as f:
     files = f.read().splitlines()
 
 import re
@@ -14,11 +14,10 @@ for f in files:
 # part 1
 
 sum4 = 0
-display4 = []
+
 for d in digits:
     l = [dd for dd in d if len(dd) in [2, 4, 3, 7]]
     sum4 += len(l)
-    display4.append(l)
 print(sum4)
 
 # part 2
