@@ -28,3 +28,6 @@ d6:
 
 d11:
 - original logics loophole: just loop each row, then each column, find >9 to radiate, however, this will not cover the squid radiate in the bottom, then backradiate to the top of matrix, and trigger new rounds of radition on the top, hence it will not work, it will break on step 2 of the large toy sample
+
+d13:
+- np.array reverse in different axis, np.nditer for interation and modification
