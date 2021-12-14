@@ -31,3 +31,7 @@ d11:
 
 d13:
 - np.array reverse in different axis, np.nditer for interation and modification
+
+d12:
+- collection.defaultdict to setup dict without initianizing/key error
+- I worked on the logics for a while, even with the online solution, still couldn't fully understand the logics of path/recursion, especially for part 2, with print help on the toy sample, the part 2 direct end path is actually part 1 direct end path, the added new path actually all calling from part 1 in the code - I couldn't wrap my head around it, may come back to visit it later
