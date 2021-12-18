@@ -35,3 +35,8 @@ d13:
 d12:
 - collection.defaultdict to setup dict without initianizing/key error
 - I worked on the logics for a while, even with the online solution, still couldn't fully understand the logics of path/recursion, especially for part 2, with print help on the toy sample, the part 2 direct end path is actually part 1 direct end path, the added new path actually all calling from part 1 in the code - I couldn't wrap my head around it, may come back to visit it later
+
+d15:
+- originally I wrote a dijkstra following wiki's algorithm description, it worked for toy case, but run out of max recusion limit for input :(
+- then I came up nwith a constant time seaching method for down/right directional search, it also works for toycase, but a littl off for real input - find a online solution and spent a whole day testing the input data trying to find edge case where my solution will break and back trace the path - it can not solve when path has a 9 surronding by small number cases - optimal path will have a 'loop' - going down, then up then down, instead of always going right and down
+- at least learned these things: index with '//' and '%'  in list instead of using np 2D array, np.diagonal(), np.indices(), np.vstack, np.hstack
