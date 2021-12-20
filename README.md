@@ -40,3 +40,8 @@ d15:
 - originally I wrote a dijkstra following wiki's algorithm description, it worked for toy case, but run out of max recusion limit for input :(
 - then I came up nwith a constant time seaching method for down/right directional search, it also works for toycase, but a littl off for real input - find a online solution and spent a whole day testing the input data trying to find edge case where my solution will break and back trace the path - it can not solve when path has a 9 surronding by small number cases - optimal path will have a 'loop' - going down, then up then down, instead of always going right and down
 - at least learned these things: index with '//' and '%'  in list instead of using np 2D array, np.diagonal(), np.indices(), np.vstack, np.hstack
+
+d16
+- I only worked out part 1, for part 2, I got all the piece worked out as in the online solution, however, I could not piece together my own solution, strugging with recurssion parts
+- another thing I did wrong is I tried to derive the expression in readable form from part1, then work on that, instead of directly working on the binary form again, parsing and calculating in the same time
+
