@@ -1,0 +1,3 @@
+day7
+* when using &, |, ~ operator on int, it does bitwise operation instead of logic operation (assuming any positive int is True)
+* originally my thought: based on instruction length, find initial wire to start, then find instruction with only known wires, so on and so forth, basically need to sort instructions in executable order; the online solution I found using dict instead of sort instructions and recursive solve the needed wire
