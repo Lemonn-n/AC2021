@@ -25,3 +25,20 @@
 
 ### day12
 * json package, map functions
+
+### day19
+* I figure out part 1, however, it will take forever to run part 2 (way too inefficient after step 8), found online one for part 2
+
+### day20
+* about 'infinite large', day4 ways of counting and threading doesnot work, use np to work efficiently on large number, np.nonzero() as mask
+
+### day22
+* iteraiton through sequence of chars:
+```a = ['a']*5
+def iter_a(pos):
+    a[pos]='bcdea'['abcde'.index(a[pos])]
+    if a[pos]=='a':
+        iter_a(pos+1)
+for i in range(20):
+    print(a)
+    iter_a(0)```
